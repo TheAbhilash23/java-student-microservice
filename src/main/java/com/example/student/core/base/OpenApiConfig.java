@@ -17,10 +17,10 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .servers(List.of(
-                        new Server().url("http://localhost:8080").description("Local Development Server")
+                        new Server().url("http://localhost:8081").description("Local Development Server")
                 ))
                 .info(new Info()
-                        .title("Demo Application API")
+                        .title("Student Application API")
                         .version("1.0")
                         .description("This is a sample Spring Boot RESTful service using springdoc-openapi and OpenAPI 3.0")
                         .contact(new Contact()
